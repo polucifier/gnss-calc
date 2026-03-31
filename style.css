@@ -258,6 +258,27 @@ input:checked+.slider:before {
     /* U posledního řádku čáru nechceme */
 }
 
+/* Úprava h3 - totální stažení k tabulce */
+h3 {
+    margin-top: 30px !important;
+    margin-bottom: 0 !important; /* Zruší mezeru pod nadpisem */
+    line-height: 1.2;
+    padding-left: 20px !important; 
+    margin-left: 0 !important;
+}
+
+/* Zarovnání tabulky (wrapperu) a stažení k nadpisu */
+.table-wrapper {
+    margin-top: 5px !important;  /* Minimální mezera mezi h3 a tabulkou */
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+/* Jistota pro tabulku samotnou */
+table {
+    margin-top: 0 !important;
+}
+
 /* --- RESPONSIVNÍ DESIGN --- */
 @media (max-width: 600px) {
     body {
